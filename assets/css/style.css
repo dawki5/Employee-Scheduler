@@ -36,15 +36,6 @@ textarea {
   border-top: 1px solid white;
 }
 
-/*** OVERWRITE - MEDIA QUERY FOR TABLETS AND SMALLER  ***/
-/* This will be applied on any screen 768px and bellow */
-@media screen and (max-width: 768px),
-screen and (max-width: 575px) {
-  .row {
-    height: auto;
-    margin-top: 20px;
-  }
-
 .hour {
   background-color: #ffffff;
   color: #000000;
@@ -79,19 +70,27 @@ screen and (max-width: 575px) {
   transition: all 0.3s ease-in-out;
 }
 
-.hour {
-  padding-right: 17%;
-}
+/*** OVERWRITE - MEDIA QUERY FOR TABLETS AND SMALLER  ***/
+/* This will be applied on any screen 768px and bellow */
+@media screen and (max-width: 768px),
+screen and (max-width: 575px) {
+  .row {
+    height: auto;
+    margin-top: 20px;
+  }
 
-.saveBtn {
-  border: 0;
-  border-radius: 0.25rem;
-  height: 50px;
-}
+  .hour {
+    padding-right: 17%;
+  }
 
-textarea {
-  min-height: 85px;
-  border: 0;
-}
+  .saveBtn {
+    border: 0;
+    border-radius: 0.25rem;
+    height: 50px;
+  }
 
+  textarea {
+    min-height: 85px;
+    border: 0;
+  }
 }
