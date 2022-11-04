@@ -30,7 +30,4 @@ This site saves all entries to the local storage so even when refreshed or exite
 
 https://dawki5.github.io/Employee-Scheduler/
 
-## Images
-
-![05-third-party-apis-homework-demo](https://user-images.githubusercontent.com/109554960/199496705-9c1d8e47-298f-454e-88d4-69881f1043e7.gif)
 
