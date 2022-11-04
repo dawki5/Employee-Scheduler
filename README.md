@@ -29,7 +29,3 @@ This site saves all entries to the local storage so even when refreshed or exite
 ## links
 
 https://dawki5.github.io/Employee-Scheduler/
-
-## Images
-
-
